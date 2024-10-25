@@ -32,7 +32,7 @@ function validarFormulario(e) {
 
     alert("Hemos recibidos su datos, pronto nos pondremos en contacto");
 
-    window.location.reload();
+    e.target.submit();
 }
 
 function mostrarError(Mensaje) {
